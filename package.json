@@ -1,0 +1,19 @@
+{
+  "name": "codetrack_site",
+  "version": "1.0.0",
+  "description": "Another exercise just give me more repetitions and become a better developer, HTML, CSS, JavaScript, jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenryGarmendia/codetrack_site.git"
+  },
+  "author": "Henry Garmendia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HenryGarmendia/codetrack_site/issues"
+  },
+  "homepage": "https://github.com/HenryGarmendia/codetrack_site#readme"
+}
