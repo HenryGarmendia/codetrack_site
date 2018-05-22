@@ -40,11 +40,16 @@ body {
   display: inline-block;
   margin: 0;
   padding: 0 1rem; }
-
-.header-main__menu li a {
-  color: #fff;
-  cursor: pointer;
-  font-size: 1.7rem;
-  letter-spacing: 1px;
-  line-height: 2.2rem;
-  text-decoration: none; }
+  .header-main__menu li a {
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+    padding-bottom: 3px;
+    transition: all 0.4s;
+    text-decoration: none; }
+    .header-main__menu li a:link, .header-main__menu li a:visited {
+      color: #fff; }
+    .header-main__menu li a:hover {
+      border-bottom: 1px solid #fff; }
