@@ -1,12 +1,12 @@
 .header-main {
 
   & header {
-    background-color: red;
+
   }
   
   &__nav-wrapper {
     align-items: center;
-    background-color: $color-black;
+    background-color: #26282A;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -16,7 +16,10 @@
   }
 
   &__logo {
-    
+
+    & img {
+      max-width: 10rem;
+    }
   }
 
   &__menu {

@@ -23,18 +23,18 @@ body {
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
   font-family: "Oswald", sans-serif; }
 
-.header-main header {
-  background-color: red; }
-
 .header-main__nav-wrapper {
   align-items: center;
-  background-color: #000;
+  background-color: #26282A;
   display: flex;
   justify-content: space-between;
   margin: auto;
   max-width: 112rem;
   padding: .7rem 0;
   position: relative; }
+
+.header-main__logo img {
+  max-width: 10rem; }
 
 .header-main__menu li {
   display: inline-block;
