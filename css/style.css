@@ -22,3 +22,29 @@ body {
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
   font-family: "Oswald", sans-serif; }
+
+.header-main header {
+  background-color: red; }
+
+.header-main__nav-wrapper {
+  align-items: center;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 112rem;
+  padding: .7rem 0;
+  position: relative; }
+
+.header-main__menu li {
+  display: inline-block;
+  margin: 0;
+  padding: 0 1rem; }
+
+.header-main__menu li a {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  line-height: 2.2rem;
+  text-decoration: none; }

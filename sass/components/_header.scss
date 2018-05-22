@@ -1,0 +1,40 @@
+.header-main {
+
+  & header {
+    background-color: red;
+  }
+  
+  &__nav-wrapper {
+    align-items: center;
+    background-color: $color-black;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: $grid-width;
+    padding: .7rem 0;
+    position: relative;
+  }
+
+  &__logo {
+    
+  }
+
+  &__menu {
+
+    & li {
+      display: inline-block;
+      margin: 0;
+      padding: 0 1rem;
+    }
+
+    & li a {
+      color: $color-white;
+      cursor: pointer;
+      font-size: 1.7rem;
+      letter-spacing: 1px;
+      line-height: 2.2rem;
+      text-decoration: none;
+    }
+
+  }
+}
