@@ -62,3 +62,14 @@ body {
       color: #fff; }
     .header-main__menu li a:hover {
       border-bottom: 1px solid #fff; }
+
+.header-main__hero-wrapper {
+  height: 60vh;
+  position: relative; }
+  .header-main__hero-wrapper--hero-bkg {
+    background-image: url("../../img/hero-bkg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: fixed; }
