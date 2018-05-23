@@ -23,9 +23,18 @@ body {
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
   font-family: "Oswald", sans-serif; }
 
+.header-main header {
+  background-color: #26282A; }
+
+.header-main__sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s; }
+
 .header-main__nav-wrapper {
   align-items: center;
-  background-color: #26282A;
   display: flex;
   justify-content: space-between;
   margin: auto;

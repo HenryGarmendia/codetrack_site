@@ -1,12 +1,19 @@
 .header-main {
-
+  
   & header {
+    background-color: #26282A;  // temp background-color
+  }
 
+  &__sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s;
   }
   
   &__nav-wrapper {
     align-items: center;
-    background-color: #26282A;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -50,7 +57,5 @@
       }
 
     }
-
-
   }
 }

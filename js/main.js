@@ -1,12 +1,19 @@
 $(document).ready(function() {
   "use strict";
 
-  let $header = $('header');
+  let $header = $('header'),
+      $headerHeight = Math.round($header.height() + 286),
+      $sticky = $header.after($header.clone().addClass('header-main__sticky')),
+      $stickyClass = document.querySelector('.header-main__sticky');
 
-  let $sticky = $header.before($header.clone().addClass('sticky'));
+  function stickyNav() {
+    if(window.scrollY > $headerHeight) {
+      $($stickyClass).css("transform", "translateY(0)");
+    } else {
+      $($stickyClass).css({"transform": "translateY(-200%)"});
+    }
+  }; // stickyNav
 
-  $sticky.css({
-    backgroundColor: 'blue'
-  });
+  window.addEventListener('scroll', stickyNav);
 
 }); // document.ready
