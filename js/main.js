@@ -3,7 +3,7 @@ $(document).ready(function() {
 
   let $header = $('header'),
       $headerHeight = Math.round($header.height() + 286),
-      $sticky = $header.after($header.clone().addClass('header-main__sticky')),
+      $sticky = $header.before($header.clone().addClass('header-main__sticky')),
       $stickyClass = document.querySelector('.header-main__sticky');
 
   function stickyNav() {
