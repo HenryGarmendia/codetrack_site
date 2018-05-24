@@ -20,56 +20,73 @@ body {
   line-height: 1.6;
   min-height: 100vh; }
 
+.siteContainer {
+  background-color: #213E8F;
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
   font-family: "Oswald", sans-serif; }
 
-.header-main header {
-  background-color: #26282A; }
-
-.header-main__sticky {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: all 0.5s; }
-
-.header-main__nav-wrapper {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  max-width: 112rem;
-  padding: .7rem 0;
-  position: relative; }
-
-.header-main__logo img {
-  max-width: 10rem; }
-
-.header-main__menu li {
-  display: inline-block;
-  margin: 0;
-  padding: 0 1rem; }
-  .header-main__menu li a {
-    border-bottom: 1px solid transparent;
-    cursor: pointer;
-    font-size: 1.7rem;
-    letter-spacing: 1px;
-    line-height: 2.2rem;
-    padding-bottom: 3px;
-    transition: all 0.4s;
-    text-decoration: none; }
-    .header-main__menu li a:link, .header-main__menu li a:visited {
-      color: #fff; }
-    .header-main__menu li a:hover {
-      border-bottom: 1px solid #fff; }
-
-.header-main__hero-wrapper {
-  height: 60vh;
-  position: relative; }
-  .header-main__hero-wrapper--hero-bkg {
-    background-image: url("../../img/hero-bkg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.header-main {
+  background-attachment: fixed;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../../img/hero-bkg.jpg");
+  background-position: unset;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh; }
+  .header-main__sticky {
+    position: fixed;
+    right: 0;
+    transition: all 0.5s;
+    top: 0;
+    left: 0;
+    z-index: 999; }
+  .header-main__nav-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 112rem;
+    padding: .7rem 0; }
+  .header-main__logo img {
+    opacity: 0.9;
+    max-width: 10rem; }
+  .header-main__menu li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 1rem; }
+    .header-main__menu li a {
+      border-bottom: 1px solid transparent;
+      cursor: pointer;
+      font-size: 1.7rem;
+      letter-spacing: 1px;
+      line-height: 2.2rem;
+      padding-bottom: 3px;
+      transition: all 0.4s;
+      text-decoration: none; }
+      .header-main__menu li a:link, .header-main__menu li a:visited {
+        color: #fff; }
+      .header-main__menu li a:hover {
+        border-bottom: 1px solid #fff; }
+  .header-main__hero-wrapper {
     height: 60vh;
-    width: 100%;
-    position: fixed; }
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .header-main__hero-wrapper--hero-front {
+      background-image: url("../../img/hero-front.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 60rem;
+      position: absolute;
+      top: -4rem;
+      width: 100%; }
+
+.another-section {
+  margin: auto;
+  max-width: 112rem; }
