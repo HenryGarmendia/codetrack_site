@@ -1,3 +1,6 @@
+.mb-xsm {
+  margin-bottom: 1rem; }
+
 .mb-sm {
   margin-bottom: 2rem; }
 
@@ -9,6 +12,9 @@
 
 .mb-hg {
   margin-bottom: 8rem; }
+
+.mt-xsm {
+  margin-top: 1rem; }
 
 .mt-sm {
   margin-top: 2rem; }
@@ -54,9 +60,22 @@ body {
   font-family: "Raleway", sans-serif; }
 
 .heading-1 {
-  font-size: 3.8rem;
+  font-size: 3.9rem;
   font-weight: 200;
   line-height: 1.2; }
+
+.heading-2 {
+  font-size: 3.5rem;
+  font-weight: 200; }
+  .heading-2--white {
+    color: #dde9f0;
+    text-transform: uppercase; }
+
+.heading-3 {
+  font-size: 2rem;
+  font-weight: 200; }
+  .heading-3--white {
+    color: #dde9f0; }
 
 .header-main {
   background-attachment: fixed;
@@ -146,6 +165,20 @@ body {
         text-transform: uppercase; }
         .header-main__hero-wrapper--btnMain__btnPortfolio:not(:last-child), .header-main__hero-wrapper--btnMain__btnCta:not(:last-child) {
           margin-right: 3rem; }
+
+.feature-section {
+  text-align: center; }
+  .feature-section__card {
+    padding: 0 2rem; }
+  .feature-section__icon img {
+    height: 9.5rem;
+    width: auto; }
+  .feature-section__heading-3 {
+    font-size: 2.5rem;
+    color: #b4b4b4; }
+  .feature-section p {
+    color: #e4e1e1;
+    font-size: 1.5rem; }
 
 .layoutGrid {
   margin: auto;

@@ -6,9 +6,9 @@ $color-grey-light-2: #eee;
 $color-grey-light-h: #dde9f0;
 $color-grey-light-p: #e4e1e1;
 
-$color-grey-dark-1: #777;
+$color-grey-dark-1: #b4b4b4;
 $color-grey-dark-2: #999;
-$color-grey-dark-3: #333;
+$color-grey-dark-3: #747474;
 
 $color-primary: #213E8F;
 $color-secondary: #FDB927;
@@ -31,10 +31,12 @@ $font-display: 'Raleway', sans-serif;
 $grid-width: 112rem;
 
 // HELPER CLASSES
+.mb-xsm { margin-bottom: 1rem; }
 .mb-sm { margin-bottom: 2rem; }
 .mb-md { margin-bottom: 3rem; }
 .mb-lg { margin-bottom: 4rem; }
 .mb-hg { margin-bottom: 8rem; }
+.mt-xsm { margin-top: 1rem; }
 .mt-sm { margin-top: 2rem; }
 .mt-md { margin-top: 3rem; }
 .mt-lg { margin-top: 4rem; }

@@ -6,17 +6,30 @@
 
 .heading-1 {
   @extend %heading;
-  font-size: 3.8rem;
+  font-size: 3.9rem;
   font-weight: 200;
   line-height: 1.2;
 }
 
 .heading-2 {
   @extend %heading;
+  font-size: 3.5rem;
+  font-weight: 200;
+
+  &--white {
+    color: $color-grey-light-h;
+    text-transform: uppercase;
+  }
 }
 
 .heading-3 {
   @extend %heading;
+  font-size: 2rem;
+  font-weight: 200;
+
+  &--white {
+    color: $color-grey-light-h;
+  }
 }
 
 .heading-4 {
