@@ -26,6 +26,10 @@ $(document).ready(function() {
       $(".header-main__hero-wrapper--hero-bkg").css({
         "transform": "translateY(" + winScroll / 2 + "px)"
       });
+
+      $(".header-main__hero-wrapper--scene").css({
+        "transform": "translateY(-" + (winScroll * 0.005) + "px)"
+      });
     }
 
   }); // $(window).scroll

@@ -7,7 +7,7 @@
   height: 60vh;
   
   & header {
-    // background-color: $color-thirdly;  // temp background-color
+    // background-color: $color-thirdly;  // TEMP background-color
   }
   
   &__sticky {
@@ -16,7 +16,7 @@
     transition: all 0.5s;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 10;
   }
   
   &__nav-wrapper {
@@ -62,8 +62,8 @@
           border-bottom: 1px solid $color-white;
         }
       } // & a
-    } // & li
-  }
+    }
+  } // & li
 
   &__hero-wrapper {
     height: 60vh;
