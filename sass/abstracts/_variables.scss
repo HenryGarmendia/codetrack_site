@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 // COLORS
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
@@ -27,6 +29,19 @@ $font-display: 'Raleway', sans-serif;
 
 // GRID VARIABLES
 $grid-width: 112rem;
-$gutter-vertical: 8rem;
-$gutter-vertical-small: 3rem;
-$gutter-horizontal: 2rem;
+
+// HELPER CLASSES
+.mb-sm { margin-bottom: 2rem; }
+.mb-md { margin-bottom: 3rem; }
+.mb-lg { margin-bottom: 4rem; }
+.mb-hg { margin-bottom: 8rem; }
+.mt-sm { margin-top: 2rem; }
+.mt-md { margin-top: 3rem; }
+.mt-lg { margin-top: 4rem; }
+.mt-hg { margin-top: 8rem; }
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em;    // 1200px
+$bp-large: 62.5em;    // 1000px
+$bp-medium: 50em;     // 800px
+$bp-small: 37.5em;    // 600px

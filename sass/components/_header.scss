@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 .header-main {
   background-attachment: fixed;
   background-image: linear-gradient(rgba($color-black, .2), rgba($color-black, .7)), url("../../img/hero-bkg.jpg");
@@ -93,6 +95,7 @@
     &--title {
       color: $color-white;
       letter-spacing: 2px;
+      text-transform: uppercase;
       margin-bottom: 20rem;   
       width: 60%;  
     }
@@ -126,9 +129,4 @@
       } // &__btnPortfolio, &__btnCta
     } // &--btnMain
   } // &__hero-wrapper
-}
-
-.another-section {
-  margin: auto;
-  max-width: $grid-width;
 }
