@@ -27,7 +27,12 @@ body {
   width: 100%; }
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
-  font-family: "Oswald", sans-serif; }
+  font-family: "Raleway", sans-serif; }
+
+.heading-1 {
+  font-size: 3.8rem;
+  font-weight: 200;
+  line-height: 1.2; }
 
 .header-main {
   background-attachment: fixed;
@@ -77,7 +82,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%; }
-    .header-main__hero-wrapper--hero-front {
+    .header-main__hero-wrapper--hero-bkg {
       background-image: url("../../img/hero-front.png");
       background-repeat: no-repeat;
       background-size: cover;
@@ -86,6 +91,36 @@ body {
       position: absolute;
       top: -4rem;
       width: 100%; }
+    .header-main__hero-wrapper--scene {
+      margin-left: 11.1vw;
+      margin-top: 15rem;
+      width: 78vw; }
+    .header-main__hero-wrapper--title {
+      color: #fff;
+      letter-spacing: 2px;
+      margin-bottom: 20rem;
+      width: 60%; }
+    .header-main__hero-wrapper--content {
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 200 !important;
+      letter-spacing: 1.6px;
+      margin-top: 11rem;
+      width: 50%; }
+    .header-main__hero-wrapper--btnMain {
+      margin-top: 23rem; }
+      .header-main__hero-wrapper--btnMain__btnPortfolio, .header-main__hero-wrapper--btnMain__btnCta {
+        background-color: #FDB927;
+        border: 1px solid #213E8F;
+        color: #213E8F;
+        font-size: 1.7rem;
+        font-weight: 400;
+        letter-spacing: 1.2px;
+        padding: 1rem 2.5rem;
+        text-decoration: none;
+        text-transform: uppercase; }
+        .header-main__hero-wrapper--btnMain__btnPortfolio:not(:last-child), .header-main__hero-wrapper--btnMain__btnCta:not(:last-child) {
+          margin-right: 3rem; }
 
 .another-section {
   margin: auto;

@@ -4,6 +4,9 @@
 
 .heading-1 {
   @extend %heading;
+  font-size: 3.8rem;
+  font-weight: 200;
+  line-height: 1.2;
 }
 
 .heading-2 {

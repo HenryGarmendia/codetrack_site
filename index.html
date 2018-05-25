@@ -15,7 +15,7 @@
   <!-- ::Fontawesome -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-HX5QvHXoIsrUAY0tE/wG8+Wt1MwvaY28d9Zciqcj6Ob7Tw99tFPo4YUXcZw9l930" crossorigin="anonymous">
   <!-- ::Custom Font -->
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Oswald:300,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400|Raleway:200,300,400,500" rel="stylesheet"> 
   <!-- ::Favicon -->
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
@@ -57,10 +57,23 @@
         <div class='header-main__hero-wrapper--hero-bkg'></div><!-- //header-main__hero-wrapper--hero-bkg -->
         <div class='header-main__hero-wrapper--hero-front'></div><!-- //header-main__hero-front -->
         
-        <ul id="scene">
-          <li class="layer"></li>
-          <li class="layer"></li>
-          <li class="layer"></li>
+        <ul class="header-main__hero-wrapper--scene" id="scene" 
+            data-invert-x="false" 
+            data-invert-x="false"
+            data-scalar-x="7"
+            data-scalar-y="7"
+            data-friction-y="0.1"
+            data-friction-y="0.1"
+            data-origin-y="0.5"
+            data-origin-y="0.5">
+          <li class="layer header-main__hero-wrapper--title" data-depth="0.90">
+            <h1 class="heading-1">SNATCH THIS CODE FROM KINGDOM KONG, BOY!</h1>
+          </li>
+          <li class="layer header-main__hero-wrapper--content" data-depth="0.50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores inventore ex rem nisi corporis totam id vitae quam necessitatibus optio?</li>
+          <li class="layer header-main__hero-wrapper--btnMain" data-depth="0.30">
+            <a href="#!" class="header-main__hero-wrapper--btnMain__btnPortfolio">Portfolio</a>
+            <a href="#!" class="header-main__hero-wrapper--btnMain__btnCta">Snatch</a>
+          </li>
         </ul>
       </div><!-- //header-main__hero-wrapper END -->
     </section><!-- //header-main END -->
@@ -133,6 +146,11 @@
   <script type="text/javascript" src="js/parallax.min.js"></script>
   <!-- :: Main JavaScript -->
   <script type="text/javascript" src="js/main.js"></script>
+  <!-- :: Parallax Initiation -->
+  <script>
+    let scene = document.getElementById('scene'),
+        parallax = new Parallax(scene);
+  </script>
 
 </body>
 </html>
