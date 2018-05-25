@@ -4,6 +4,7 @@
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 $color-grey-light-h: #dde9f0;
+$color-grey-dark-h: #26282A;
 $color-grey-light-p: #e4e1e1;
 
 $color-grey-dark-1: #b4b4b4;
@@ -41,6 +42,16 @@ $grid-width: 112rem;
 .mt-md { margin-top: 3rem; }
 .mt-lg { margin-top: 4rem; }
 .mt-hg { margin-top: 8rem; }
+.pb-xsm { padding-bottom: 1rem; }
+.pb-sm { padding-bottom: 2rem; }
+.pb-md { padding-bottom: 3rem; }
+.pb-lg { padding-bottom: 4rem; }
+.pb-hg { padding-bottom: 8rem; }
+.pt-xsm { padding-top: 1rem; }
+.pt-sm { padding-top: 2rem; }
+.pt-md { padding-top: 3rem; }
+.pt-lg { padding-top: 4rem; }
+.pt-hg { padding-top: 8rem; }
 
 // RESPONSIVE BREAKPOINTS
 $bp-largest: 75em;    // 1200px

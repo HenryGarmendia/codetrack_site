@@ -15,10 +15,36 @@
   @extend %heading;
   font-size: 3.5rem;
   font-weight: 200;
+  line-height: 1.2;
 
   &--white {
     color: $color-grey-light-h;
+    text-align: center;
     text-transform: uppercase;
+
+    &::after {
+      background-color: rgba($color-white, 0.15);
+      content: "";
+      display: block;
+      height: 2px;
+      margin: 1.5rem auto;
+      width: 30%;
+    }
+  }
+
+  &--black {
+    color: $color-grey-dark-h;
+    text-align: center;
+    text-transform: uppercase;
+
+    &::after {
+      background-color: rgba($color-black, 0.15);
+      content: "";
+      display: block;
+      height: 2px;
+      margin: 1.5rem auto;
+      width: 30%;
+    }
   }
 }
 
