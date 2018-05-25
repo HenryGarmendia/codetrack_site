@@ -235,6 +235,8 @@ body {
   .portfolio-section__img {
     height: auto;
     width: 100%; }
+    .portfolio-section__img:not(:last-child) {
+      background-color: #213E8F; }
 
 .layoutGrid {
   margin: auto;

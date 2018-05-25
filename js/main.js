@@ -32,6 +32,11 @@ $(document).ready(function() {
       });
     }
 
+    // PORTFOLI
+    if(winScroll > $(".portfolio-section").offset().top) {
+      console.log(winScroll);
+    }
+
   }); // $(window).scroll
 
 }); // document.ready
