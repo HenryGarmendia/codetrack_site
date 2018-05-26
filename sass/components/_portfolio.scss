@@ -6,7 +6,12 @@
 	}
 
 	&__item {
+		opacity: 0;
+		transition: all .4s;
 
+		&:not(:last-child) {
+			margin-bottom: 2rem;
+		}
 	}
 
 	&__item--1 {
@@ -48,9 +53,10 @@
 	&__img {
 		height: auto;
 		width: 100%;
-
-		&:not(:last-child) {
-			margin-bottom: 2rem;
-		}
 	}
+}
+
+.fade-in {
+	border-radius: 100%;
+	opacity: 1;
 }

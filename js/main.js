@@ -16,7 +16,7 @@ $(document).ready(function() {
   }; // stickyNav
   window.addEventListener('scroll', stickyNav);
 
-  // PARALLAX BACKGROUND PICTURES
+  // PARALLAX HERO BACKGROUND PICTURES
   let $headerMain = Math.round($(".header-main").height());
 
   $(window).scroll(function(){
@@ -32,9 +32,16 @@ $(document).ready(function() {
       });
     }
 
-    // PORTFOLI
-    if(winScroll > $(".portfolio-section").offset().top) {
-      console.log(winScroll);
+    // PORTFOLIO GALLERY
+    let porSection = $(".portfolio-section");
+    let featureSection = $(".feature-section");
+    
+    if(winScroll > featureSection.offset().top) {
+      $(".portfolio-section figure").each(function(i){
+        setTimeout(function(){
+          $(".portfolio-section figure").eq(i).addClass('fade-in');
+        }, 150 * (i+1));
+      });
     }
 
   }); // $(window).scroll
