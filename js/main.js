@@ -33,7 +33,6 @@ $(document).ready(function() {
     }
 
     // PORTFOLIO GALLERY
-    let porSection = $(".portfolio-section");
     let featureSection = $(".feature-section");
     
     if(winScroll > featureSection.offset().top) {
