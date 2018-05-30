@@ -127,6 +127,10 @@ body {
   .heading-3--white {
     color: #dde9f0; }
 
+.heading-4 {
+  font-size: 3.5rem;
+  font-weight: 300; }
+
 .header-main {
   background-attachment: fixed;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../../img/hero-bkg.jpg");
@@ -244,6 +248,33 @@ body {
 .fade-in {
   border-radius: 100%;
   opacity: 1; }
+
+.btn {
+  color: #FDB927;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.7rem;
+  border: solid 1px #FDB927;
+  letter-spacing: 1.5px;
+  line-height: 2.2rem;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.4s; }
+  .btn, .btn:link, .btn:visited {
+    color: #FDB927; }
+
+.compare-section {
+  background-color: #000;
+  color: #747474; }
+  .compare-section__image {
+    width: 100%; }
+    .compare-section__image img {
+      height: auto;
+      width: 100%; }
+  .compare-section p {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem; }
 
 .layoutGrid {
   margin: auto;

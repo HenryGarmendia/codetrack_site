@@ -1,0 +1,18 @@
+.compare-section {
+  background-color: $color-black;
+  color: $color-grey-dark-3;
+  
+  &__image {
+    width: 100%;
+
+    & img {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: 1.7rem;
+    margin-bottom: 1.5rem;
+  }
+}
