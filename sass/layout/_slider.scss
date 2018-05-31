@@ -1,0 +1,21 @@
+.slider-section {
+
+  &__box {
+    color: $color-white;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+
+    &-slide {
+      max-height: 30rem;
+      padding: 1.5rem;
+    }
+  }
+
+  & .slick-prev,
+    .slick-next {
+      background-color: $color-black;
+      height: 4rem;
+      width: 4rem;
+    }
+}

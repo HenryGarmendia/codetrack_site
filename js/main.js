@@ -41,8 +41,17 @@ $(document).ready(function() {
           $(".portfolio-section figure").eq(i).addClass('fade-in');
         }, 150 * (i+1));
       });
-    }
-
+    } // winScroll > featureSection.offset().top
   }); // $(window).scroll
+
+  // SLIDER SHOWCASE
+  $('.slider-section__box').slick({
+    infinite: true,
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev"></button>',
+    nextArrow: '<button type="button" class="slick-next"></button>',
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
 
 }); // document.ready
