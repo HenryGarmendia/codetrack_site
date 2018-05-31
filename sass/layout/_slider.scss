@@ -1,21 +1,41 @@
 .slider-section {
+  background-color: $color-secondary;
 
   &__box {
     color: $color-white;
-    margin: 2rem auto;
-    padding: 2rem;
+    margin: 0 auto;
     text-align: center;
 
     &-slide {
-      max-height: 30rem;
+      max-height: 40rem;
       padding: 1.5rem;
+      
+      & img {
+        border: 5px solid rgba($color-primary, .7);
+        width: 100%;
+      }
     }
   }
 
-  & .slick-prev,
-    .slick-next {
+  & .slick-next,
+    .slick-prev {
       background-color: $color-black;
       height: 4rem;
+      transition: all .4s ease-out;
       width: 4rem;
+      z-index: 1;
     }
+  
+  & .slick-next:hover,
+    .slick-prev:hover {
+      background-color: $color-primary;
+    }
+
+  & .slick-next {
+    right: 0;
+  }
+  
+  & .slick-prev {
+    left: 0;
+  }
 }

@@ -46,12 +46,15 @@ $(document).ready(function() {
 
   // SLIDER SHOWCASE
   $('.slider-section__box').slick({
-    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2500,
     arrows: true,
-    prevArrow: '<button type="button" class="slick-prev"></button>',
+    centerMode: true,
+    infinite: true,
     nextArrow: '<button type="button" class="slick-next"></button>',
-    slidesToShow: 3,
-    slidesToScroll: 3
+    prevArrow: '<button type="button" class="slick-prev"></button>',
+    slidesToShow: 3
+    // slidesToScroll: 3
   });
 
 }); // document.ready
