@@ -38,4 +38,10 @@
   & .slick-prev {
     left: 0;
   }
+
+  & .slick-dots li button {
+    height: 1rem;
+    width: 2.8rem;
+    background-color: rgba($color-black, .3);
+  }
 }

@@ -142,7 +142,12 @@
 
     width: 20px;
     height: 20px;
-    margin: 0 5px;
+    /* margin: 0 5px; */
+
+    /* TEMP */
+    margin: 0 8px;
+    /* TEMP END */
+    
     padding: 0;
 
     cursor: pointer;
@@ -188,7 +193,10 @@
     width: 20px;
     height: 20px;
 
-    content: '•';
+    /* content: '•'; */
+    /* TEMP */
+    content: "";
+    /* TEMP END */
     text-align: center;
 
     opacity: .25;
@@ -201,4 +209,10 @@
 {
     opacity: .75;
     color: black;
+
+    /* TEMP */
+    background-color: rgba(0, 0, 0, .5);
+    height: 1rem;
+    width: 2.8rem;
+    /* TEMP END */
 }

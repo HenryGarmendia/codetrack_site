@@ -314,6 +314,10 @@ body {
     right: 0; }
   .slider-section .slick-prev {
     left: 0; }
+  .slider-section .slick-dots li button {
+    height: 1rem;
+    width: 2.8rem;
+    background-color: rgba(0, 0, 0, 0.3); }
 
 .layoutGrid {
   margin: auto;

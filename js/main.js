@@ -50,6 +50,7 @@ $(document).ready(function() {
     autoplaySpeed: 2500,
     arrows: true,
     centerMode: true,
+    dots: true,
     infinite: true,
     nextArrow: '<button type="button" class="slick-next"></button>',
     prevArrow: '<button type="button" class="slick-prev"></button>',
