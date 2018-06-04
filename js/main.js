@@ -58,4 +58,7 @@ $(document).ready(function() {
     // slidesToScroll: 3
   });
 
+  // SMOOTH SCROLL
+  
+
 }); // document.ready
