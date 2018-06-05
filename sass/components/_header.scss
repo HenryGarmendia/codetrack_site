@@ -129,4 +129,17 @@
       } // &__btnPortfolio, &__btnCta
     } // &--btnMain
   } // &__hero-wrapper
-}
+
+  @media only screen and (max-width: 950px) {
+    &__trigger {
+      background-color: $color-white;
+      display: block;
+      height: 35px;
+      position: absolute;
+      right: 10px;
+      top: 15px;
+      width: 35px;
+      z-index: 10;
+    }
+  }
+} // header-main 
