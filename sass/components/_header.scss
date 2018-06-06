@@ -64,8 +64,8 @@
           border-bottom: 1px solid $color-white;
         }
       } // & a
-    }
-  } // & li
+    } // & li
+  } // &__menu
 
   &__hero-wrapper {
     height: 60vh;
@@ -130,7 +130,7 @@
     } // &--btnMain
   } // &__hero-wrapper
 
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 768px) {
     &__trigger {
       background-color: $color-white;
       display: block;
@@ -141,5 +141,5 @@
       width: 35px;
       z-index: 10;
     }
-  }
+  } // @media (max-width: 768px)
 } // header-main 

@@ -219,7 +219,7 @@ body {
         text-transform: uppercase; }
         .header-main__hero-wrapper--btnMain__btnPortfolio:not(:last-child), .header-main__hero-wrapper--btnMain__btnCta:not(:last-child) {
           margin-right: 3rem; }
-  @media only screen and (max-width: 950px) {
+  @media only screen and (max-width: 768px) {
     .header-main__trigger {
       background-color: #fff;
       display: block;
