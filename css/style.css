@@ -223,12 +223,30 @@ body {
     .header-main__trigger {
       background-color: #fff;
       display: block;
-      height: 35px;
+      height: 3.5rem;
       position: absolute;
-      right: 10px;
-      top: 15px;
-      width: 35px;
-      z-index: 10; } }
+      right: 1rem;
+      top: 1.5rem;
+      width: 3.5rem;
+      z-index: 20; }
+    .header-main .main-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      bottom: 0;
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 19; }
+    .header-main .main-overlay::after {
+      background-color: #213E8F;
+      content: "";
+      display: block;
+      height: 3.5rem;
+      position: fixed;
+      right: 1rem;
+      top: 1.5rem;
+      width: 3.5rem;
+      z-index: 30; } }
 
 .feature-section {
   text-align: center; }

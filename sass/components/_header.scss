@@ -134,12 +134,35 @@
     &__trigger {
       background-color: $color-white;
       display: block;
-      height: 35px;
+      height: 3.5rem;
       position: absolute;
-      right: 10px;
-      top: 15px;
-      width: 35px;
-      z-index: 10;
+      right: 1rem;
+      top: 1.5rem;
+      width: 3.5rem;
+      z-index: 20;
+    }
+
+    & .main-overlay {
+      background-color: rgba($color-black, .5);
+      bottom: 0;
+      // display: none;
+      left: 0;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 19;
+    }
+
+    & .main-overlay::after {
+      background-color: $color-primary;
+      content: "";
+      display: block;
+      height: 3.5rem;
+      position: fixed;
+      right: 1rem;
+      top: 1.5rem;
+      width: 3.5rem;
+      z-index: 30;
     }
   } // @media (max-width: 768px)
 } // header-main 
