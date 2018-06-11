@@ -56,7 +56,7 @@ $(document).ready(function() {
     prevArrow: '<button type="button" class="slick-prev"></button>',
     slidesToShow: 3
     // slidesToScroll: 3
-  });
+  }); // $('.slider-section__box')
 
   // SMOOTH SCROLL
   $('.header-main__menu li a[href^="#"]').on('click', function(e) { 
@@ -66,7 +66,7 @@ $(document).ready(function() {
       $('html, body').stop().animate({
         scrollTop: target.offset().top -5
       }, 1000);
-    }
-   });
+    } // target.length
+   });  // $('.header-main__menu')
 
 }); // document.ready
