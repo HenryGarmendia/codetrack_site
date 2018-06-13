@@ -232,6 +232,7 @@ body {
     .header-main .main-overlay {
       background-color: rgba(0, 0, 0, 0.5);
       bottom: 0;
+      display: block;
       left: 0;
       position: fixed;
       right: 0;
@@ -246,7 +247,27 @@ body {
       right: 1rem;
       top: 1.5rem;
       width: 3.5rem;
-      z-index: 30; } }
+      z-index: 30; }
+    .header-main__menu {
+      background-color: #131313;
+      bottom: 0;
+      left: 0;
+      max-width: 300px;
+      position: fixed;
+      transform: translate3d(-100%, 0, 0);
+      top: 0;
+      width: 100%;
+      z-index: 40; }
+    .header-main__menu li {
+      display: block;
+      margin-top: 2rem;
+      padding: 0;
+      padding-bottom: 2rem; }
+    .header-main__menu li a {
+      font-size: 1.8rem;
+      line-height: 2.3rem; }
+    .header-main__menu li a:hove {
+      border-color: transparent; } }
 
 .feature-section {
   text-align: center; }

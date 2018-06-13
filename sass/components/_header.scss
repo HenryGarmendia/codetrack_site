@@ -145,7 +145,7 @@
     & .main-overlay {
       background-color: rgba($color-black, .5);
       bottom: 0;
-      // display: none;
+      display: block;
       left: 0;
       position: fixed;
       right: 0;
@@ -164,5 +164,34 @@
       width: 3.5rem;
       z-index: 30;
     }
+
+    &__menu {
+      background-color: #131313;
+      bottom: 0;
+      left: 0;
+      max-width: 300px;
+      position: fixed;
+      transform: translate3d(-100%, 0, 0);
+      top: 0;
+      width: 100%;
+      z-index: 40;
+    }
+
+    &__menu li {
+      display: block;
+      margin-top: 2rem;
+      padding: 0;
+      padding-bottom: 2rem;
+    }
+
+    &__menu li a {
+      font-size: 1.8rem;
+      line-height: 2.3rem;
+    }
+
+    &__menu li a:hover {
+      border-color: transparent;
+    }
+
   } // @media (max-width: 768px)
 } // header-main 
