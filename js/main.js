@@ -74,4 +74,7 @@ $(document).ready(function() {
       menuTrigger = $('.header-main__trigger-js'),
       mainOverlay = $('.main-overlay__js');
 
+  menuTrigger.on('click', function (){
+    console.log('YOU CLICKED ME');
+  });
 }); // document.ready
