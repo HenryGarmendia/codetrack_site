@@ -69,4 +69,9 @@ $(document).ready(function() {
     } // target.length
    });  // $('.header-main__menu')
 
+  // RESPONSIVE MENU
+  let body        = $('body'),
+      menuTrigger = $('.header-main__trigger-js'),
+      mainOverlay = $('.main-overlay__js');
+
 }); // document.ready
