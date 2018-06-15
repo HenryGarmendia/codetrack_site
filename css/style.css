@@ -226,16 +226,18 @@ body {
       height: 3.5rem;
       position: absolute;
       right: 1rem;
+      transition: all .4s;
       top: 1.5rem;
       width: 3.5rem;
       z-index: 20; }
     .header-main .main-overlay {
       background-color: rgba(0, 0, 0, 0.5);
       bottom: 0;
-      display: block;
+      display: none;
       left: 0;
       position: fixed;
       right: 0;
+      transition: all .4s;
       top: 0;
       z-index: 19; }
     .header-main .main-overlay::after {
@@ -255,6 +257,7 @@ body {
       max-width: 300px;
       position: fixed;
       transform: translate3d(-100%, 0, 0);
+      transition: all .4s;
       top: 0;
       width: 100%;
       z-index: 40; }
@@ -266,8 +269,16 @@ body {
     .header-main__menu li a {
       font-size: 1.8rem;
       line-height: 2.3rem; }
-    .header-main__menu li a:hove {
-      border-color: transparent; } }
+    .header-main__menu li a:hover {
+      border-color: transparent; }
+    body.menu-is-active .header-main__menu {
+      display: block;
+      padding: 0 1.5rem;
+      transform: translate3d(0, 0, 0); }
+    body.menu-is-active .header-main .main-overlay {
+      display: block; }
+    body.menu-is-active .header-main__trigger {
+      display: none; } }
 
 .feature-section {
   text-align: center; }

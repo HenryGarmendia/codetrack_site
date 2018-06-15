@@ -137,6 +137,7 @@
       height: 3.5rem;
       position: absolute;
       right: 1rem;
+      transition: all .4s;
       top: 1.5rem;
       width: 3.5rem;
       z-index: 20;
@@ -145,10 +146,11 @@
     & .main-overlay {
       background-color: rgba($color-black, .5);
       bottom: 0;
-      display: block;
+      display: none;
       left: 0;
       position: fixed;
       right: 0;
+      transition: all .4s;
       top: 0;
       z-index: 19;
     }
@@ -172,6 +174,7 @@
       max-width: 300px;
       position: fixed;
       transform: translate3d(-100%, 0, 0);
+      transition: all .4s;
       top: 0;
       width: 100%;
       z-index: 40;
@@ -191,6 +194,20 @@
 
     &__menu li a:hover {
       border-color: transparent;
+    }
+
+    body.menu-is-active &__menu {
+      display: block;
+      padding: 0 1.5rem;
+      transform: translate3d(0, 0, 0);
+    }
+
+    body.menu-is-active & .main-overlay {
+      display: block;
+    }
+
+    body.menu-is-active &__trigger {
+      display: none;
     }
 
   } // @media (max-width: 768px)

@@ -73,8 +73,16 @@ $(document).ready(function() {
   let body        = $('body'),
       menuTrigger = $('.header-main__trigger-js'),
       mainOverlay = $('.main-overlay__js');
-
+      
   menuTrigger.on('click', function (){
-    console.log('YOU CLICKED ME');
+    body.addClass('menu-is-active');
+  });
+  
+  mainOverlay.on('click', function (){
+    body.removeClass('menu-is-active');
+  });
+  
+  $('.header-main__menu li a').on('click', function (){
+    body.removeClass('menu-is-active');
   });
 }); // document.ready
