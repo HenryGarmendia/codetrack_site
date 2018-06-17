@@ -130,7 +130,7 @@
     } // &--btnMain
   } // &__hero-wrapper
 
-  @media only screen and (max-width: 768px) {
+  @include responsive(mobile-menu) {
     &__trigger {
       background-color: $color-white;
       display: block;
@@ -209,6 +209,6 @@
     body.menu-is-active &__trigger {
       display: none;
     }
-
-  } // @media (max-width: 768px)
+  } // @include responsive(mobile-menu)
+  
 } // header-main 

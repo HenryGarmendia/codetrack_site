@@ -42,6 +42,13 @@
       @content
     };
   }
+
+  @if $breakpoint == mobile-menu {
+    @media only screen and (max-width: 48em) {        // 768px
+      @content
+    };
+  }
+
   @if $breakpoint == tab-port {
     @media only screen and (max-width: 56.25em) {     // 900px
       @content
