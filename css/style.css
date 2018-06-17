@@ -58,6 +58,28 @@
 .pt-hg {
   padding-top: 8rem; }
 
+/*
+  MEDIA QUERY MANAGER
+
+  0 - 600px:          Phone
+  600px - 900px:      Table portrait
+  900px - 1200px:     Table portrait
+  [1200px - 1800px]   is where normal styles apply "Desktop"
+  1800px + :          Big Desktop
+
+  $BREAKPOINT ARGUMENTS CHOICES
+
+  - phone
+  - tab-port
+  - tab-land
+  - big-desk
+
+  ORDER TO QUERY PROJECT
+
+  Base > Typography > General layout > Grid > Page layout > Components
+
+  1em = 16px
+*/
 * {
   margin: 0;
   padding: 0; }
