@@ -372,7 +372,7 @@ body {
 
 .footer-section {
   background-color: #26282A;
-  height: 25rem; }
+  height: 100%; }
   .footer-section__container {
     color: #747474;
     display: flex;
