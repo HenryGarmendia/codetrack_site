@@ -37,14 +37,14 @@
 */
 
 @mixin responsive($breakpoint) {
-  @if $breakpoint == phone {
-    @media only screen and (max-width: 37.5em) {      // 600px
+  @if $breakpoint == mobile-menu {
+    @media only screen and (max-width: 48em) {        // 768px
       @content
     };
   }
 
-  @if $breakpoint == mobile-menu {
-    @media only screen and (max-width: 48em) {        // 768px
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {      // 600px
       @content
     };
   }
