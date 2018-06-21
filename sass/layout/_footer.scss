@@ -7,7 +7,7 @@
     display: flex;
     font-size: 1.7rem;
     justify-content: space-between;
-    padding-top: 5rem;
+    padding-top: 9rem;
     position: relative;
   }
 
@@ -27,6 +27,25 @@
   &__author-name {
     margin-left: 1.5rem;
   }
+  
+  // MOBILE BREAKPOINT
+  @include responsive(phone) {
+    &__container {
+      flex-direction: column;
+      padding-top: 5rem;
+      text-align: center;
+
+      & :first-child {
+        margin-bottom: 1rem;
+        position: relative;
+      }
+    } 
+    
+    &__heart {
+      left: 25.2rem;
+      bottom: -.2rem;
+    }
+  } // @include responsive(phone)
 }
 
 @keyframes pulse {
