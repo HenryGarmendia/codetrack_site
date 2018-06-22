@@ -9,6 +9,10 @@
   font-size: 3.9rem;
   font-weight: 200;
   line-height: 1.2;
+
+  @include responsive(phone) {
+    font-size: 3.1rem;
+  }
 }
 
 .heading-2 {

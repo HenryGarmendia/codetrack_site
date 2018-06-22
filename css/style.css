@@ -115,6 +115,9 @@ body {
   font-size: 3.9rem;
   font-weight: 200;
   line-height: 1.2; }
+  @media only screen and (max-width: 37.5em) {
+    .heading-1 {
+      font-size: 3.1rem; } }
 
 .heading-2 {
   font-size: 3.5rem;
@@ -301,6 +304,14 @@ body {
       display: block; }
     body.menu-is-active .header-main__trigger {
       display: none; } }
+  @media only screen and (max-width: 37.5em) {
+    .header-main__hero-wrapper--scene {
+      margin-top: 10rem;
+      width: 133vw; }
+    .header-main__hero-wrapper--content {
+      margin-top: 9rem; }
+    .header-main__hero-wrapper--btnMain {
+      margin-top: 25rem; } }
 
 .feature-section {
   text-align: center; }

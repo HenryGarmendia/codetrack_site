@@ -210,5 +210,23 @@
       display: none;
     }
   } // @include responsive(mobile-menu)
+
+  @include responsive(phone) {
+    &__hero-wrapper {
+
+      &--scene {
+        margin-top: 10rem;
+        width: 133vw;
+      }
+  
+      &--content {
+        margin-top: 9rem;
+      }
+
+      &--btnMain {
+        margin-top: 25rem;
+      }
+    }
+  } //  @include responsive(phone)
   
 } // header-main 
