@@ -100,7 +100,9 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   line-height: 1.6;
-  min-height: 100vh; }
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .siteContainer {
   background-color: #213E8F;
