@@ -6,10 +6,14 @@ $(document).ready(function() {
       $headerHeight = Math.round($header.height() + 86),
       $sticky = $header.before($header.clone().addClass('header-main__sticky')),
       $stickyClass = document.querySelector('.header-main__sticky');
+      console.log($sticky);
 
   function stickyNav() {
     if(window.scrollY > $headerHeight) {
-      $($stickyClass).css("transform", "translateY(0)");
+      $($stickyClass).css({
+        "transform": "translateY(0)", 
+        "background-color": "rgba(0,0,0, .85)"
+      });
     } else {
       $($stickyClass).css({"transform": "translateY(-200%)"});
     }
@@ -54,8 +58,22 @@ $(document).ready(function() {
     infinite: true,
     nextArrow: '<button type="button" class="slick-next"></button>',
     prevArrow: '<button type="button" class="slick-prev"></button>',
-    slidesToShow: 3
-    // slidesToScroll: 3
+    slidesToShow: 3, 
+
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 650,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   }); // $('.slider-section__box')
 
   // SMOOTH SCROLL
