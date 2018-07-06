@@ -97,6 +97,7 @@ html {
   width: 100%; }
 
 body {
+  background-color: #213E8F;
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   line-height: 1.6;
@@ -164,7 +165,7 @@ body {
   background-position: unset;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh; }
+  height: 68vh; }
   .header-main__sticky {
     position: fixed;
     right: 0;
@@ -204,7 +205,6 @@ body {
     left: 0;
     overflow: hidden;
     position: absolute;
-    top: 0;
     width: 100%; }
     .header-main__hero-wrapper--hero-bkg {
       background-image: url("../../img/hero-front.png");
@@ -213,12 +213,14 @@ body {
       background-position: center;
       height: 65vh;
       position: absolute;
-      top: -4rem;
+      top: -3.8rem;
       width: 100%; }
-    .header-main__hero-wrapper--scene {
-      margin-left: 11.1vw;
-      margin-top: 15rem;
-      width: 78vw; }
+    .header-main__hero-wrapper--container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center; }
     .header-main__hero-wrapper--title {
       color: #fff;
       letter-spacing: 2px;
@@ -307,9 +309,6 @@ body {
     body.menu-is-active .header-main__trigger {
       display: none; } }
   @media only screen and (max-width: 37.5em) {
-    .header-main__hero-wrapper--scene {
-      margin-top: 10rem;
-      width: 133vw; }
     .header-main__hero-wrapper--content {
       margin-top: 9rem; }
     .header-main__hero-wrapper--btnMain {
