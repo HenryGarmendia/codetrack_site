@@ -6,13 +6,13 @@ $(document).ready(function() {
       $headerHeight = Math.round($header.height() + 86),
       $sticky = $header.before($header.clone().addClass('header-main__sticky')),
       $stickyClass = document.querySelector('.header-main__sticky');
-      console.log($sticky);
 
   function stickyNav() {
     if(window.scrollY > $headerHeight) {
       $($stickyClass).css({
         "transform": "translateY(0)", 
-        "background-color": "rgba(0,0,0, .85)"
+        "background-color": "rgba(0,0,0, .85)",
+        "transition": "all .4s"
       });
     } else {
       $($stickyClass).css({"transform": "translateY(-200%)"});
