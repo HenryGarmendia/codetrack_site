@@ -212,12 +212,14 @@ body {
       background-position: center;
       height: 65vh;
       position: absolute;
-      top: -4rem;
+      top: -3.8rem;
       width: 100%; }
-    .header-main__hero-wrapper--scene {
-      margin-left: 11.1vw;
-      margin-top: 15rem;
-      width: 78vw; }
+    .header-main__hero-wrapper--container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center; }
     .header-main__hero-wrapper--title {
       color: #fff;
       letter-spacing: 2px;
@@ -306,9 +308,6 @@ body {
     body.menu-is-active .header-main__trigger {
       display: none; } }
   @media only screen and (max-width: 37.5em) {
-    .header-main__hero-wrapper--scene {
-      margin-top: 10rem;
-      width: 133vw; }
     .header-main__hero-wrapper--content {
       margin-top: 9rem; }
     .header-main__hero-wrapper--btnMain {

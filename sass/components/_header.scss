@@ -81,14 +81,16 @@
       background-position: center;
       height: 65vh;
       position: absolute;
-      top: -4rem;
+      top: -3.8rem;
       width: 100%;
     } // &--hero-bkg
 
-    &--scene {
-      margin-left: 11.1vw;
-      margin-top: 15rem;
-      width: 78vw;
+    &--container {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-self: center;
     }
 
     &--title {
@@ -214,8 +216,8 @@
     &__hero-wrapper {
 
       &--scene {
-        margin-top: 10rem;
-        width: 133vw;
+        // margin-top: 10rem;
+        // width: 100%;
       }
   
       &--content {
