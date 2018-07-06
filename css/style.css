@@ -164,7 +164,7 @@ body {
   background-position: unset;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 60vh; }
+  height: 68vh; }
   .header-main__sticky {
     position: fixed;
     right: 0;
@@ -204,7 +204,6 @@ body {
     left: 0;
     overflow: hidden;
     position: absolute;
-    top: 0;
     width: 100%; }
     .header-main__hero-wrapper--hero-bkg {
       background-image: url("../../img/hero-front.png");
