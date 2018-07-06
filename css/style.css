@@ -97,6 +97,7 @@ html {
   width: 100%; }
 
 body {
+  background-color: #213E8F;
   font-family: "Fira Sans", sans-serif;
   font-weight: 300;
   line-height: 1.6;
